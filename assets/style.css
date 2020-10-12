@@ -1,42 +1,43 @@
 header {
-  border: 1px solid white;
+  width: 100%;
 }
 
-nav {
-  border: 1px solid white;
+header nav {
   text-align: center;
   letter-spacing: 5px;
+  margin-top: 50px;
 }
 
-nav ul {
+header nav ul {
   list-style: none;
 }
 
-nav ul li {
+header nav ul li {
   display: inline;
   margin: 0px 20px;
   border-bottom: 2px solid rgb(191, 209, 29);
 }
 
-#backimg1 {
-  margin: 5% 10% 5% 10%;
+header p {
   height: 500px;
-  width: 80%;
-  background-image: url("../media/surfing1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  position: relative;
+  font-size: 25px;
+  top: 200px;
+  left: 20%;
 }
 
-header p {
-  padding: 200px 0px 60px 50px;
-  height: 500px;
-  text-align: bottom;
-  border: 1px solid white;
+#backimg1 {
+  float: right;
+  position: relative;
+  left: 10%;
+  right: 10%;
+  top: 70px;
+  height: 100px;
 }
 
 .sec1 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 200px;
   font-size: 1.5em;
 }
 
@@ -45,7 +46,7 @@ header p {
 }
 
 .table1 {
-  margin: 20px 0px;
+  margin: 50px 0px;
 }
 
 .table1 table {
@@ -56,4 +57,20 @@ header p {
 
 .td1 {
   border-right: 3px solid brown;
+}
+
+footer nav {
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0px 20px;
+  border-top: 2px solid rgb(191, 209, 29);
 }
