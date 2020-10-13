@@ -1,0 +1,131 @@
+#wrapper{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+#wrapper+div{
+    display: inline;
+    position: relative;
+    width:100%;
+}
+
+div{
+    display:block;
+}
+
+#menu{
+    cursor: pointer;
+    position: absolute;
+    right:0;
+    width: 177px;
+    height:30px;
+    padding:10px 30px 0px 30px;
+    display:flex;
+    align-items: center;
+}
+
+#box1{
+    font-size:13px;
+    display: flex;
+    width:87.953px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+#item1{
+    height:24px;
+}
+
+#item2{
+    height:24px;
+}
+
+#box2{
+    display: flex;
+    width:75px;
+    justify-content: space-between;
+}
+
+#shape1{
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    display:flex;
+    width:30px;
+    height:30px;
+}
+
+.dot{
+    width:8px;
+    height:8px;
+    background: gray;
+}
+
+#shape2{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    background-origin: content-box;
+    color:white;
+    background: brown;
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+}
+
+#content{
+    position: absolute;
+    top:100px;
+    height: 233px;
+    margin-top: 89px;
+    width:100%;
+    text-align: center;
+}
+
+#word1{
+    font-size: 110px;
+    color:rgb(56, 63, 170);
+}
+
+#word2{
+    font-size: 110px;
+    color:rgb(168, 41, 41);
+}
+
+#word3{
+    color:rgb(197, 190, 84);
+    font-size: 110px;
+}
+
+#word4{
+    color:rgb(56, 63, 170);
+    font-size: 110px;
+}
+
+#word5{
+    color:rgb(68, 180, 111);
+    font-size: 110px;
+}
+
+#word6{
+    font-size: 110px;
+    color:rgb(168, 41, 41);
+}
+
+#search{
+   padding: 0px 0px 60px 0px;
+   margin: 0 auto;
+   width: auto;
+   max-width: 484px;
+   height: 35px;
+}
+#serc{
+    vertical-align: middle;
+    border:1px solid gray;
+    border-radius: 10em;
+    width:400px;
+    height:30px;
+    margin:50px 0;
+}
+
