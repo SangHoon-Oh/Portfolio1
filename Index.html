@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-<div id="wrapper">
-    <div>
-        <div id="menu">
-            <div id="box1">
-                <div id="item1">Gmail</div>
-                <div id="item2">이미지</div>
-            </div>
-            <div id="box2">
-                <div id="shape1">
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                </div>
-                <div id="shape2">S</div>
-            </div>
-        </div>
+<nav class="menu">
+    <div class="item item1">Gmail</div>
+    <div class="item item2">이미지</div>
+    <div class="item item3">Menu</div>
+    <div class="item item4"><span>S</span></div>
+</nav>
+<div class="main">
+    <div class="logo"><span>H</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
     </div>
-
-    <div id="content">
-        <div id="google">
-            <span id="word1">G</span><span id="word2">o</span><span id="word3">o</span><span id="word4">g</span><span id="word5">l</span><span id="word6">e</span>
-        </div>
-        <div id="search">
-            <label for="serc">돋보기</label>
-            <input type="text" id="serc" autofocus>
-        </div>
-        <div id="rest">2</div>
+    <div class="search">
+        <form action="https://www.google.com/search" method="get" class="searchbar"> 
+        <label for="searchbar">검색돋보기</label>
+        <input id="searchbar" name="q" type="text" autocomplete="off" placeholder=" Google 검색 또는 URL 입력">
+        </form>
     </div>
-
-
+    <div class="etc1">Hoogle검색</div>
+    <div class="etc2">I'm feeling lucky!</div>
+    <div class="info">Google 클론 코딩 연습</div>
+</div>
 </div>
 </body>
 </html>
